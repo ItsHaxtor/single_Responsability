@@ -1,0 +1,22 @@
+@startuml
+class figures{
+    - float square_side
+    - float rectangle_length
+    - float rectangle_width
+    - double circle_radius
+}
+class area{
+    + AreaOfSquare(double side) : float
+    + AreaOfRectangle(double length, double width) : float
+    + AreaOfCircle(double radius) : double
+}
+class output{
+    + DisplayArea(double area)
+}
+figures <|-- area
+output <-- area
+output <- figures
+
+
+
+@enduml
