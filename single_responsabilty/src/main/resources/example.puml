@@ -1,5 +1,5 @@
 @startuml
-class figures{
+abstract class figures{
     - float square_side
     - float rectangle_length
     - float rectangle_width
