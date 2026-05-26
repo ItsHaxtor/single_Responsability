@@ -1,5 +1,5 @@
 package ejemplos;
-public class figures {
+abstract public class figures {
     private float square_side;
     private float rectangle_length;
     private float rectangle_width;
